@@ -11,7 +11,7 @@ string digits = "1234567890";
 
 int playerBrokenShipCnt = 0, botBrokenShipCnt = 0;
 bool isFree = false;
-const int fieldSize = fieldSize;
+const int fieldSize = 10;
 // Создание пустого поля для игрока
 vector<vector<char>> playerField(fieldSize, vector<char> (fieldSize, '~'));
 vector<vector<char>> playerFieldLooking(fieldSize, vector<char> (fieldSize, '~'));
